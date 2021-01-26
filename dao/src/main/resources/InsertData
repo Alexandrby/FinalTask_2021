@@ -1,0 +1,11 @@
+
+INSERT INTO `city` VALUES (1,'Brest'),(2,'Minsk'),(3,'Gomel'),(4,'Vitebsk');
+INSERT INTO `discount` VALUES (1,5),(2,10),(3,15),(4,20);
+INSERT INTO `profile` VALUES (1,'Alex','Oreshkin',1),(2,'Ivan','Ivanov',2),(3,'Petr','Petrov',3),(4,'John','Full',1),(5,'Vasiliy','Terkin',2);
+INSERT INTO `rentpoint` VALUES (1,'Lenina 53','+375 29 111 11 11',1),(2,'Suvorova 12','+375 29 222 22 22',2),(3,'Sovetcskay 32','+375 29 333 33 33',4),(4,'Bobrova 5','+375 29 444 44 44',3),(5,'Kypala 21','+375 29 555 55 55',1);
+INSERT INTO `rentstory` VALUES (1,2,1,5,25,'cash'),(2,3,2,23,115,'card'),(3,5,3,12,60,'cash'),(4,1,4,43,215,'cash'),(5,4,5,8,40,'card');
+INSERT INTO `role` VALUES (1,'user'),(2,'admin');
+INSERT INTO `scooter` VALUES (1,2,'Suzuki','FREE'),(2,1,'Yamaha','RENTED'),(3,3,'Honda','CHARGING'),(4,4,'Mercedes','FREE'),(5,5,'Honda','BROKEN');
+INSERT INTO `seasonticket` VALUES (1,6,5,2),(2,12,4,3),(3,24,3,1);
+INSERT INTO `user` VALUES (1,'user','$2y$12$Y7S6wd/16KdxxXJPRsxnkeyHR2K/Qzza8mdPaaT151H6KQHPosfvy',1),(2,'admin','$2y$12$Y7S6wd/16KdxxXJPRsxnkeyHR2K/Qzza8mdPaaT151H6KQHPosfvy',2);
+INSERT INTO `user_role` VALUES (1,1),(1,2));
