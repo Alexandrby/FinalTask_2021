@@ -28,11 +28,5 @@ public class SeasonTicket extends AbstractEntity{
     @JsonIgnore
     private Profile profile;
 
-    @Override
-    public String toString() {
-        return "SeasonTicket{" +
-                "HoursLeft=" + hoursLeft +
-                ", CostPerHour=" + costPerHour +
-                '}';
-    }
+
 }

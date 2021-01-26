@@ -38,14 +38,6 @@ public class User extends AbstractEntity implements GrantedAuthority {
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private List<Role> roles;
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "userId=" + userId +
-                ", login='" + login + '\'' +
-                ", profile=" + profile +
-                '}';
-    }
 
     @Override
     public String getAuthority() {

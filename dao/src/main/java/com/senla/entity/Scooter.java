@@ -31,12 +31,6 @@ public class Scooter extends AbstractEntity {
     @OneToMany(mappedBy = "scooter", cascade = CascadeType.ALL)
     private List<RentStory> rentStoryList;
 
-    @Override
-    public String toString() {
-        return "Scooter{" +
-                "model='" + model + '\'' +
-                ", status=" + status +
-                '}';
-    }
+
 }
 

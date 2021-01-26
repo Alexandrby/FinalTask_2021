@@ -32,11 +32,5 @@ public class RentPoint  extends AbstractEntity {
     @JoinColumn(name = "city_id")
     private City city;
 
-    @Override
-    public String toString() {
-        return "RentPoint{" +
-               ", Address='" + address + '\'' +
-                ", Phone='" + phone + '\'' +
-                '}';
-    }
+
 }

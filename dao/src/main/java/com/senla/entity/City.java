@@ -27,10 +27,5 @@ public class City extends AbstractEntity {
     @OneToMany(mappedBy = "city",orphanRemoval = false)
     private List<RentPoint> rentPointList;
 
-    @Override
-    public String toString() {
-        return "City{" +
-                "CityName='" + cityName + '\'' +
-                '}';
-    }
+
 }

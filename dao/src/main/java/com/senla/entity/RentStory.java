@@ -41,14 +41,5 @@ public class RentStory extends AbstractEntity {
     @JoinColumn(name = "scooter_id")
     private Scooter scooter;
 
-    @Override
-    public String toString() {
-        return "<br />" + "RentStory{" +
-                "rentStoryId=" + rentStoryId +
-                ", scooter=" + scooter +
-                ", rentDuration=" + rentDuration +
-                ", Money=" + money +
-                ", paidWay='" + paidWay + '\'' +
-                '}';
-    }
+
 }

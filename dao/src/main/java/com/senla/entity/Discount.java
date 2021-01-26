@@ -25,11 +25,4 @@ public class Discount  extends AbstractEntity{
     @JsonIgnore
     private Profile profile;*/
 
-    @Override
-    public String toString() {
-        return "Discount{" +
-                "DiscountId=" + getDiscountId() +
-                ", DiscountRate=" + discountRate +
-                '}';
-    }
 }
